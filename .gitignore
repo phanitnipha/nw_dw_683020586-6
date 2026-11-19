@@ -1,0 +1,18 @@
+# virtual environment
+.venv/
+venv/
+
+# ไฟล์ฐานข้อมูล DuckD8 - สร้างใหม่ได้จาก pipeline จึงไม่เก็บใน Git
+*.duckdb
+*.duckdb.wal
+
+#สิ่งที่ dbt สร้างขึ้นเอง
+target/
+logs/
+dbt_packages/
+.user.yml
+
+# Python / os
+__pycach__/
+*.pyc 
+.DS_Store
